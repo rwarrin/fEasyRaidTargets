@@ -16,8 +16,8 @@ EasyRaidTargetFrame:SetBackdropColor(.1, .1, .1, .8);
 EasyRaidTargetFrame:SetBackdropBorderColor(.2, .2, .2, .9);
 EasyRaidTargetFrame:SetWidth(90);
 EasyRaidTargetFrame:SetHeight(165);
-EasyRaidTargetFrame:Show();
-local ertf_visible = true;
+EasyRaidTargetFrame:Hide();
+local ertf_visible = false;
 
 -- Create Icon Marking Button function
 local function CreateEasyRaidTargetButton(btnName, btnText, point, relativeTo, pointRel)

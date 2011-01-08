@@ -1,0 +1,7 @@
+## Interface: 40300
+## Title: fEasyRaidTargets
+## Author: Astiroth
+## Notes: Simple frame for marking targets with raid icons
+## Version: 0.0.1
+
+core.lua
